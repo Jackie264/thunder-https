@@ -1,17 +1,3 @@
-'''
-v1.5 迅雷thunder链接转https链接
-created by HelloWorld05
-in 2025.06.14
-更新内容：
-1. 修复剪贴板复制时的对象引用错误
-2. 优化样式表管理
-3. 增强异常处理的针对性
-4. 改进用户输入体验
-5. 新增批量转换功能
-6. 添加URL格式验证
-7. 添加状态栏显示操作信息
-8. 添加保存结果到文件功能
-'''
 import sys
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout,
                             QHBoxLayout, QLineEdit, QPushButton, QLabel,
@@ -91,10 +77,6 @@ class AboutDialog(QMessageBox):
         - 添加保存结果到文件功能
         - 优化界面体验
         
-        开发者: HelloWorld05
-        开发者主页：https://github.com/helloworldpxy
-        项目主页：https://github.com/helloworldpxy/thunder-https
-        © 2025 All rights reserved
         """
         self.setText(content)
         self.setIcon(QMessageBox.Information)
